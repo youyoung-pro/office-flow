@@ -30,7 +30,7 @@ Claude 데스크탑 앱(Cowork)에서 이 플러그인 파일(.plugin)을 대화
 
 Claude Code 사용자는 다음 두 명령으로 설치합니다.
 
-    /plugin marketplace add kangship/office-flow
+    /plugin marketplace add youyoung-pro/office-flow
     /plugin install haengjeongsa-office-flow@youyoung-marketplace
 
 ## 문의

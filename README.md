@@ -8,7 +8,7 @@
 
 Claude Code 설치:
 
-    /plugin marketplace add kangship/office-flow
+    /plugin marketplace add youyoung-pro/office-flow
     /plugin install haengjeongsa-office-flow@youyoung-marketplace
 
 유영행정사사무소 · kang@youyoungpro.com · blog.youyoungpro.com
