@@ -1,0 +1,12 @@
+{
+  "name": "haengjeongsa-office-flow",
+  "version": "0.1.0",
+  "description": "행정사사무소 업무 플로우 이식 패키지. 설치 마법사가 사무소 정보를 입력받아 사건 접수·수임 확정·채번·문서 발급·폴더 체계·Notion 사건관리 플로우를 한 번에 세팅한다.",
+  "author": {
+    "name": "유영행정사사무소",
+    "url": "https://blog.youyoungpro.com"
+  },
+  "homepage": "https://install.youyoungpro.com",
+  "license": "무상 공유 (재판매 금지)",
+  "keywords": ["행정사", "사건관리", "채번", "hwpx", "notion"]
+}

@@ -1,0 +1,54 @@
+{
+  "office": {
+    "name_ko": "{{사무소명_국문}}",
+    "name_en": "{{사무소명_영문}}",
+    "representative": "{{대표행정사_성명}}",
+    "license_no": "{{행정사_자격번호}}",
+    "report_no": "{{행정사업무신고번호}}",
+    "biz_reg_no": "{{사업자등록번호}}",
+    "ecommerce_no": "{{통신판매업_신고번호}}",
+    "address": "{{사무소_주소}}",
+    "phone_mobile": "{{휴대전화}}",
+    "phone_office": "{{유선전화}}",
+    "fax": "{{팩스}}",
+    "email": "{{이메일}}",
+    "web": "{{블로그_웹사이트}}"
+  },
+  "payment": {
+    "bank": "{{은행명}}",
+    "account": "{{계좌번호}}",
+    "holder": "{{예금주}}"
+  },
+  "practice_areas": [
+    "조달행정",
+    "비영리법인·임의단체 설립",
+    "민간자격증",
+    "내용증명·권리·계약서",
+    "인허가",
+    "영업정지, 음주운전 구제·이의제기",
+    "출입국·외국인 비자업무"
+  ],
+  "numbering": {
+    "case_prefix": "CS",
+    "doc_prefix": "{{문서번호_접두어}}",
+    "doc_number_format": "{doc_prefix}-{year}-{seq:04d}",
+    "consult_format": "YY-{seq}(상담)"
+  },
+  "paths": {
+    "standard_root": "D:\\OFFICE_DATA",
+    "automation": "{standard_root}\\사무소_자동화",
+    "documents": "{standard_root}\\PC문서함",
+    "casework": "{standard_root}\\PC문서함\\01. 작업 문서함"
+  },
+  "notion": {
+    "consult_db": "",
+    "case_db": "",
+    "client_db": ""
+  },
+  "installed": {
+    "package": "haengjeongsa-office-flow",
+    "version": "0.1.0",
+    "installed_at": "",
+    "source": "유영행정사사무소 무상 공유 (재판매 금지)"
+  }
+}

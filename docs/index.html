@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>행정사사무소 업무 플로우 이식 패키지 — 유영행정사사무소</title>
+<style>
+  :root{--ink:#1c2733;--sub:#5b6b7a;--accent:#0f5c46;--bg:#f7f5f0;--card:#ffffff;--line:#e3ded4}
+  *{margin:0;box-sizing:border-box}
+  body{font-family:"Pretendard","Apple SD Gothic Neo","Malgun Gothic",sans-serif;background:var(--bg);color:var(--ink);line-height:1.75}
+  .wrap{max-width:760px;margin:0 auto;padding:64px 24px 80px}
+  .badge{display:inline-block;font-size:13px;letter-spacing:.08em;color:var(--accent);border:1px solid var(--accent);border-radius:999px;padding:4px 14px;margin-bottom:24px}
+  h1{font-size:34px;line-height:1.35;font-weight:700;margin-bottom:16px}
+  .lead{font-size:17px;color:var(--sub);margin-bottom:40px}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:28px 30px;margin-bottom:22px}
+  .card h2{font-size:19px;margin-bottom:12px;color:var(--accent)}
+  .card p{margin-bottom:12px}
+  .card p:last-child{margin-bottom:0}
+  code,pre{font-family:ui-monospace,Consolas,monospace;font-size:14px}
+  pre{background:#10241d;color:#d9efe6;border-radius:10px;padding:16px 20px;overflow-x:auto;margin:12px 0}
+  .btn{display:inline-block;background:var(--accent);color:#fff;text-decoration:none;font-weight:600;padding:13px 28px;border-radius:10px;margin:8px 0}
+  .btn:hover{background:#0b4736}
+  .step{display:flex;gap:14px;margin-bottom:14px}
+  .num{flex:none;width:28px;height:28px;border-radius:50%;background:var(--accent);color:#fff;font-size:14px;font-weight:700;display:flex;align-items:center;justify-content:center;margin-top:4px}
+  footer{margin-top:48px;font-size:14px;color:var(--sub);border-top:1px solid var(--line);padding-top:24px}
+  a{color:var(--accent)}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <span class="badge">YOUYOUNG OFFICE FLOW</span>
+  <h1>행정사사무소 업무 플로우<br>이식 패키지</h1>
+  <p class="lead">유영행정사사무소가 실제로 운영 중인 사건 접수, 수임 확정, 채번, 문서 발급, 폴더 체계, Notion 사건관리 플로우를 귀 사무소의 Claude에 그대로 설치합니다. 무상 공유이며 재판매는 금지됩니다.</p>
+
+  <div class="card">
+    <h2>설치 (Claude 데스크탑 앱)</h2>
+    <div class="step"><div class="num">1</div><div>아래 버튼으로 플러그인 파일을 내려받습니다.</div></div>
+    <div class="step"><div class="num">2</div><div>Claude 데스크탑 앱의 대화창에 내려받은 파일을 끌어다 놓고 설치를 승인합니다.</div></div>
+    <div class="step"><div class="num">3</div><div>새 대화에서 <code>사무소 셋업</code> 이라고 입력하면 설치 마법사가 사무소 정보를 물으며 전체 플로우를 세팅합니다.</div></div>
+    <a class="btn" href="haengjeongsa-office-flow.plugin" download>플러그인 내려받기</a>
+  </div>
+
+  <div class="card">
+    <h2>설치 (Claude Code)</h2>
+    <p>터미널의 Claude Code에서는 두 명령으로 설치합니다.</p>
+    <pre>/plugin marketplace add kangship/office-flow
+/plugin install haengjeongsa-office-flow@youyoung-marketplace</pre>
+  </div>
+
+  <div class="card">
+    <h2>설치 전 준비물</h2>
+    <p>사무소 식별정보(행정사 자격번호, 행정사업무신고번호, 사업자등록번호, 주소·연락처·이메일)와 수임료 입금 계좌를 준비합니다. 계정은 전부 귀 사무소 명의로 자체 준비합니다. Notion 계정, 구글 계정, Claude 유료 계정이 필요하고, 문서 발급 PC에는 한컴 한글과 Python 3.10 이상이 있어야 합니다. 자세한 목록은 설치 마법사가 단계별로 안내하며, 유영행정사사무소의 계정이나 API는 설치 과정에서 일절 사용되지 않습니다.</p>
+  </div>
+
+  <div class="card">
+    <h2>패키지에 담긴 것</h2>
+    <p>설치 마법사(office-setup-wizard), 상담 접수·수임 확정·사건 개시 스킬(office-case-init), 사건 폴더 정리 스킬(case-folder-organizer), 법정 별지 hwpx 서식 채우기 스킬(hwpx-form-fill), hwp 변환·검수 렌더 스킬(hwp-render-convert), 그리고 채번·문서 생성기 스크립트와 Notion 표준 스키마, 운영 지침 템플릿이 들어 있습니다.</p>
+  </div>
+
+  <footer>
+    유영행정사사무소 YOUYOUNG ADMINISTRATIVE ATTORNEY<br>
+    서울특별시 도봉구 마들로11가길 16, 904호 (창동, KING 프라자)<br>
+    010-7411-6053 · 02-903-6053 · <a href="mailto:kang@youyoungpro.com">kang@youyoungpro.com</a> · <a href="https://blog.youyoungpro.com">blog.youyoungpro.com</a>
+  </footer>
+</div>
+</body>
+</html>

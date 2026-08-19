@@ -1,0 +1,18 @@
+{
+  "name": "youyoung-marketplace",
+  "owner": {
+    "name": "유영행정사사무소",
+    "email": "kang@youyoungpro.com"
+  },
+  "metadata": {
+    "description": "유영행정사사무소가 배포하는 행정사사무소 업무 자동화 플러그인 마켓플레이스",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "haengjeongsa-office-flow",
+      "source": "./plugins/haengjeongsa-office-flow",
+      "description": "행정사사무소 업무 플로우 이식 패키지 (설치 마법사 + 사건개시·폴더정리·서식 스킬 + 템플릿)"
+    }
+  ]
+}
